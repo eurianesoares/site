@@ -1,0 +1,102 @@
+:root{ /*define as configuraçoes do site*/
+    --corfundo: rgb(248, 248, 248); /* variavel contendo cor de fundo*/
+
+    --larguramaxima: 1000px; /*largura máxima*/
+    --larguraminima: 250px; /*largura minima*/
+}
+
+*{
+    margin: 0; /* O margin define as margens externas do elemento, nesse caso ele retira todas as margens da página*/
+    padding: 0; /* define as margens inertnas do elemento*/
+}
+
+body{
+    background-color: var(--corfundo); /*define a cor de fundo*/
+}
+
+header, main, footer{
+    background-color: rgb(248, 224, 224);/*cor de fundo*/
+    max-width: var(--larguramaxima); /*largura máxima*/
+    min-width: var(--larguraminima); /*largura mínima*/
+    margin: auto; /*centralizar*/
+    padding: 10px; /*margens interna*/
+}
+
+header{
+    position: relative;
+}
+
+#sociais{
+   
+    width: 90px; /*lagura*/
+    display: flex;/*comportamento interno flexivel*/
+    justify-content: space-between;/*distribuiçao horizontal*/
+    position: absolute;/*posiçao absoluta em relaçao ao elenco pai no caso a tag header*/
+    right: 20px;/*diatancia da direita*/
+    top: 15px;/*distancia do top*/
+}
+   
+
+.sociais{
+    width: 40px; /*largura*/
+    height: 40px; /*altura*/
+    filter: (1);
+}
+.sociais:hover{
+    filter: invert(1); opacity:(6);
+}
+
+
+#capa{
+    height: 300px;/*altura da div*/
+    background-color: rgb(190, 228, 250);/*define acor*/
+    background-image: url('images/bg-urbano.jpg');/*imagem de fundo da capa*/
+    background-repeat: no-repeat;/*nao repetir a foto de fundo*/
+    background-position: 0px 0px;/*posiciona a imagem em relaçao aos eixos x e y (horizontal e vestical)*/
+    background-size: cover;/*ajusta o tamanho da imagem dentro da div*/
+    display: flex;/*deixa o comportamento da div flexivel*/
+    flex-direction: column;/*muda a direçao dos itens para um abaixo do outro*/
+    justify-content: center;/*alinha verticalmete*/
+    align-items: center;/*alinha horizontalmente*/
+}
+
+#fotoperfil{
+    width: 130px;
+    position: absolute;
+    left: 30px;
+    top: 175px;
+    border-radius: 50%;
+}
+
+
+#capa h1{
+    color: rgb(255, 255, 255);
+}
+#capa p{
+    color: rgb(255, 255, 255);
+}
+
+/*=========menu==========*/
+nav{
+    
+    display: flex; /*tornar os elementos internos fexiveis /ajustados ao elemento*/
+    justify-content: center;/*centralizar horizontalmente os elementos filhos*/
+}
+
+#menu{
+    
+    width: 250px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;/* distribuir os elementos internos horizontalmente*/
+}
+
+.menu{
+    background-color: rgb(255, 195, 180);
+    padding:  10px 15px 10px 15px;/*espaççamento interno dos botoes*/
+    border-radius: 10px;
+    text-decoration: none;/*retira o sublinhado texto*/
+}
+.menu:hover{
+    background-color: rgb(234, 196, 252);
+}
