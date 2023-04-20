@@ -92,11 +92,14 @@ nav{
 }
 
 .menu{
-    background-color: rgb(255, 195, 180);
+    background-color: rgb(253, 197, 183);
     padding:  10px 15px 10px 15px;/*espaççamento interno dos botoes*/
     border-radius: 10px;
     text-decoration: none;/*retira o sublinhado texto*/
 }
 .menu:hover{
     background-color: rgb(234, 196, 252);
+}
+#nome h3{
+    color: rgb(103, 108, 112);
 }
