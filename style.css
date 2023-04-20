@@ -95,11 +95,12 @@ nav{
     background-color: rgb(252, 210, 200);
     padding:  10px 15px 10px 15px;/*espaççamento interno dos botoes*/
     border-radius: 20px;
-    text-decoration: none;/*retira o sublinhado texto*/
+    text-decoration: none;/*retira o sublinhado texto*/ 
+    color: rgb(0, 0, 0);
 }
 .menu:hover{
     background-color: rgb(234, 196, 252);
 }
 #nome h3{
-    color: rgb(113, 119, 124);
+    color: rgba(230, 68, 46, 0.795);
 }
