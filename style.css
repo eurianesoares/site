@@ -50,7 +50,7 @@ header{
 #capa{
     height: 300px;/*altura da div*/
     background-color: rgb(190, 228, 250);/*define acor*/
-    background-image: url(azul.jpg);/*imagem de fundo da capa*/
+    background-image: url(a.jpg);/*imagem de fundo da capa*/
     background-repeat: no-repeat;/*nao repetir a foto de fundo*/
     background-position: 0px 0px;/*posiciona a imagem em relaçao aos eixos x e y (horizontal e vestical)*/
     background-size: cover;/*ajusta o tamanho da imagem dentro da div*/
