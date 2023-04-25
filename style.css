@@ -85,7 +85,7 @@ nav{
 
 #menu{
     
-    width: 250px;
+    width: 140px;
     position: absolute;
     display: flex;
     justify-content: space-between;/* distribuir os elementos internos horizontalmente*/
@@ -93,7 +93,7 @@ nav{
 
 .menu{
     background-color: rgb(252, 210, 200);
-    padding:  10px 15px 10px 15px;/*espaççamento interno dos botoes*/
+    padding:  10px 10px 10px 10px;/*espaççamento interno dos botoes*/
     border-radius: 20px;
     text-decoration: none;/*retira o sublinhado texto*/ 
     color: rgb(0, 0, 0);
