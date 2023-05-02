@@ -32,8 +32,8 @@ header{
     display: flex;/*comportamento interno flexivel*/
     justify-content: space-between;/*distribuiçao horizontal*/
     position: absolute;/*posiçao absoluta em relaçao ao elenco pai no caso a tag header*/
-    right: 30px;/*diatancia da direita*/
-    top: 25px;/*distancia do top*/
+    right: 32px;/*diatancia da direita*/
+    top: 27px;/*distancia do top*/
 }
    
 
