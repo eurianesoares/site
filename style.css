@@ -61,11 +61,11 @@ header{
 }
 
 #fotoperfil{
-    width: 130px;
+    width: 110px;
     position: absolute;
     left: 30px;
-    top: 175px;
-    border-radius: 50%;
+    top: 190px;
+    border-radius: 30%;
 }
 
 
