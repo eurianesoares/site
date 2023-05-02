@@ -107,3 +107,6 @@ nav{
 #titulo{
     color: rgba(243, 42, 15, 0.795);
 }
+#fotoperfil{
+    border:2px solid rgb(252, 228, 228);
+}
